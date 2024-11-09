@@ -15,6 +15,12 @@ With this app, you can:
 This project is built using **HTML** for the basic structure and card design.
 
 
+## 🐳 Deploying Docker Images
+To deploy my project on your machine, you must use the following commands:
 
-# 💬 Contact Me!
+docker pull keyth5/project1:version1
+docker run -d -p 8080:8080 keyth5/project1:version1
+
+
+### 💬 Contact Me!
 If you have any questions or suggestions, feel free to contact me via my email: keithyaguana@gmail.com 📧
