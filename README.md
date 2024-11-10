@@ -26,7 +26,8 @@ To deploy my project on your machine, you must use the following commands:
 
 ## Live Demo
 
-Visit the live preview to explore the project in real time: [here](project1-keyth-production.up.railway.app)
+Visit the live preview to explore the project in real: [clik](https://project1-keyth-production.up.railway.app/)
+
 
 
 ## 💬 Contact Me!
