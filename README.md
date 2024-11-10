@@ -23,6 +23,7 @@ To deploy my project on your machine, you must use the following commands:
   
   docker run -d -p 8080:8080 keyth5/project1:version1
 ```
+You can also visit the repository in Docker Hub: [here](https://hub.docker.com/repository/docker/keyth5/project1/general)
 
 ## Live Demo
 
