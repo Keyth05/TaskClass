@@ -54,6 +54,6 @@ jobs:
           script: |
             echo "Pull, stop, and redeploy the Docker container"
             docker pull ${{ secrets.DOCKER_USERNAME }}/project1:version1
-            docker stop project1:version1 || true
-            docker rm project1:version1 || true
-            docker run -d --name project1:version1 -p 80:80 ${{ secrets.DOCKER_USERNAME }}/project1:version1
+            docker stop project1 || true
+            docker rm project1 || true
+            docker run -d --name project1 -p 80:80 ${{ secrets.DOCKER_USERNAME }}/project1:version1
